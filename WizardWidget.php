@@ -10,7 +10,7 @@ use yii;
 use yii\base\Widget;
 use yii\web\View;
 use yii\helpers\Html;
-
+use siripravi\wizardwidget\WizardWidgetAsset;
 
 /**
  * Widget for wizard widget
