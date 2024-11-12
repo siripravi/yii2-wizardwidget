@@ -4,7 +4,7 @@
  * @package yii2-wizardwidget
  * @version 1.0.0
  */
-namespace drsdre\wizardwidget;
+namespace siripravi\wizardwidget;
 
 use yii\web\AssetBundle;
 
@@ -16,10 +16,10 @@ use yii\web\AssetBundle;
  */
 class WizardWidgetAsset extends AssetBundle
 {
-	public $sourcePath = '@drsdre/wizardwidget';
+	public $sourcePath = '@siripravi/wizardwidget';
 	public $depends = [
 		'yii\web\YiiAsset',
-		'yii\bootstrap\BootstrapPluginAsset'
+		'yii\bootstrap5\BootstrapPluginAsset'
 	];
 	public $css = [
 		'css/wizardwidget.css',
